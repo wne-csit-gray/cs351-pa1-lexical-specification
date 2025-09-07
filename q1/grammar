@@ -1,0 +1,16 @@
+# Lexical specification for Question 1
+# TODO: Add your lexical rules here
+
+# Skip whitespace
+
+
+# Skip comments (# to end of line)
+
+
+# Keyword tokens
+
+
+# General identifier token
+
+
+# End of lexical specification

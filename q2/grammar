@@ -1,0 +1,19 @@
+# Meta-lexical specification for PLCC's lexical language
+# TODO: Add your lexical rules here
+
+# Skip whitespace
+
+
+# Skip comments
+
+
+# Keywords (skip, token)
+
+
+# Token names (uppercase identifiers)
+
+
+# Patterns (quoted strings)
+
+
+# End of lexical specification

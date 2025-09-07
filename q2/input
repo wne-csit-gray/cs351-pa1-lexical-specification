@@ -1,0 +1,5 @@
+token HI 'hi'
+skip BYE 'bye'
+# comments are ignored
+WORD '[a-zA-Z]+'
+skip WS '\s+'
