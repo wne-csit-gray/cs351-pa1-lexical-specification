@@ -1,16 +1,19 @@
 # Lexical specification for Question 1
-# TODO: Add your lexical rules here
 
 # Skip whitespace
-
+skip WS '\s+'
 
 # Skip comments (# to end of line)
+skip COMMENT '#.*'
 
+# Keyword tokens (must come before ID pattern)
+token THIS 'this'
+token THAT 'that'
+token THE 'the'
+token OTHER 'other'
+token THING 'thing'
 
-# Keyword tokens
-
-
-# General identifier token
-
+# General identifier token (letters, digits, underscores)
+token ID '[a-zA-Z0-9_]+'
 
 # End of lexical specification

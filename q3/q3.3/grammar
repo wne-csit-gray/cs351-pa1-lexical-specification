@@ -1,0 +1,2 @@
+token IF 'if'
+token ID '[a-zA-Z]+'
