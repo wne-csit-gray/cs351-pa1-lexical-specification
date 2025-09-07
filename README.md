@@ -61,7 +61,7 @@ scan < input         # Test the scanner
 
 **Hints:**
 
-- Use `skip WS '\s+'` for whitespace
+- Use a skip rule to ignore whitespace
 - Comments can be matched with a pattern from '#' to line end
 - Specific tokens should be matched before the general ID pattern
 - The ID pattern should match letters, digits, and underscores
@@ -147,8 +147,8 @@ q3/
 
 **Resources:**
 
-- PLCC Reference Manual (in course materials)
-- Lecture slides on Tokens and Lexical Analysis
+- PLCC Reference Manual (Slides 1a)
+- Lecture slides on Tokens and Lexical Analysis (Slides 0)
 
 ---
 
