@@ -2,18 +2,23 @@
 # TODO: Add your lexical rules here
 
 # Skip whitespace
-
+skip WS '\s+'
 
 # Skip comments
+skip COMMENT '#.*'
 
 
 # Keywords (skip, token)
-
+token SKIP 'skip'
+token TOKEN 'token'
 
 # Token names (uppercase identifiers)
+token NAME '[A-Z0-9_]+'
 
 
 # Patterns (quoted strings)
+token PATTERN '\'[^\']*\''
 
 
 # End of lexical specification
+token ERROR '.'
