@@ -2,15 +2,21 @@
 # TODO: Add your lexical rules here
 
 # Skip whitespace
-
+skip WS '\s+'
 
 # Skip comments (# to end of line)
-
+skip COMMENT '#.*'
 
 # Keyword tokens
+token THIS 'this'
+token THAT 'that'
+token THE 'the'
+token OTHER 'other'
+token THING 'thing'
 
 
 # General identifier token
-
+token ID '[a-zA-Z0-9_]+'
 
 # End of lexical specification
+token ERROR '.'   # Matches any other character (could be a catch-all)
